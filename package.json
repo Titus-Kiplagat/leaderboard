@@ -7,7 +7,8 @@
     "build": "webpack",
     "start": "webpack serve --open",
     "test": "jest"
-  },
+  }
+  ,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Titus-Kiplagat/leaderboard.git"
@@ -16,14 +17,26 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Titus-Kiplagat/leaderboard/issues"
-  },
+    "url": "git+https://github.com/Titus-Kiplagat/leaderboard.git"
+  }
+  ,
   "homepage": "https://github.com/Titus-Kiplagat/leaderboard#readme",
   "devDependencies": {
-    "jest": "^29.6.4",
+    "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.28.1",
+    "hint": "^7.1.10",
     "html-webpack-plugin": "^5.5.3",
+    "install": "^0.13.0",
+    "jest": "^29.6.4",
+    "npm": "^9.8.1",
     "style-loader": "^3.3.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"

@@ -1,3 +1,38 @@
+:root {
+  --background-color: #6d4e00;
+  --bgTable-color: #fff3cd;
+  --heading-color: #251a00;
+  --subheading-color: #483300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: bisque;
+  background-color: var(--background-color);
+}
+
+.heading {
+  color: var(--heading-color);
+}
+
+.sub-heading {
+  color: var(--subheading-color);
+}
+
+.table-color,
+input {
+  background-color: var(--bgTable-color);
+}
+
+.custom-height {
+  height: 50vh;
+}
+
+#name::placeholder,
+#score::placeholder {
+  color: var(--subheading-color);
 }

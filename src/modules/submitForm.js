@@ -1,4 +1,5 @@
-import addScore from './addScore.js';
+import fetchScores from './fetchScores.js';
+import postScore from './postScore.js';
 
 const submitForm = () => {
   const form = document.getElementById('form');
@@ -8,7 +9,8 @@ const submitForm = () => {
     const nameInput = document.getElementById('name');
     const scoreInput = document.getElementById('score');
 
-    if (nameInput.value && scoreInput.value) addScore(nameInput.value, scoreInput.value);
+    if (nameInput.value && scoreInput.value) postScore(nameInput.value, scoreInput.value);
+    fetchScores();
 
     nameInput.value = '';
     scoreInput.value = '';

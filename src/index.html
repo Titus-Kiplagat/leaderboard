@@ -13,7 +13,19 @@
   </head>
   <body>
     <div class="container d-flex flex-column">
-      <h1 class="my-4 my-md-5 heading">LEADERBOARD</h1>
+      <h1 class="my-4 my-md-5 heading fw-bolder">
+        <span style="--i:1">L</span>
+        <span style="--i:2">E</span>
+        <span style="--i:3">A</span>
+        <span style="--i:4">D</span>
+        <span style="--i:5">E</span>
+        <span style="--i:6">R</span>
+        <span style="--i:7">B</span>
+        <span style="--i:8">O</span>
+        <span style="--i:9">A</span>
+        <span style="--i:10">R</span>
+        <span style="--i:11">D</span>
+      </h1>
       <div class="d-flex flex-column mt-2 mt-md-5 flex-md-row">
         <div class="col-md-6 px-3 px-md-5 mb-3 mb-md-0">
           <div class="d-flex justify-content-between mb-3 mb-md-5">
@@ -22,7 +34,7 @@
               <button id="refresh-btn" class="btn btn-secondary">Refresh</button>
             </div>
           </div>
-          <div class="table-responsive border rounded table-color custom-height">
+          <div class="table-responsive border border-4 rounded table-color custom-height custom-border">
             <table class="table table-warning table-striped table-hover">
               <thead class="table-secondary sticky-top">
                 <tr>
@@ -41,7 +53,7 @@
               <label for="name" class="visually-hidden">Name</label>
               <input
                 type="text"
-                class="form-control"
+                class="form-control border border-4 custom-border"
                 id="name"
                 placeholder="Your name"
               />
@@ -50,7 +62,7 @@
               <label for="score" class="visually-hidden">Score</label>
               <input
                 type="number"
-                class="form-control"
+                class="form-control border border-4 custom-border"
                 id="score"
                 placeholder="Your score"
               />

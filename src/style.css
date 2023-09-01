@@ -33,6 +33,50 @@ body {
   animation-delay: calc(0.1s * var(--i));
 }
 
+.heading span:nth-child(1) {
+  --i: 1;
+}
+
+.heading span:nth-child(2) {
+  --i: 2;
+}
+
+.heading span:nth-child(3) {
+  --i: 3;
+}
+
+.heading span:nth-child(4) {
+  --i: 4;
+}
+
+.heading span:nth-child(5) {
+  --i: 5;
+}
+
+.heading span:nth-child(6) {
+  --i: 6;
+}
+
+.heading span:nth-child(7) {
+  --i: 7;
+}
+
+.heading span:nth-child(8) {
+  --i: 8;
+}
+
+.heading span:nth-child(9) {
+  --i: 9;
+}
+
+.heading span:nth-child(10) {
+  --i: 10;
+}
+
+.heading span:nth-child(11) {
+  --i: 11;
+}
+
 @keyframes heading {
   0%,
   40%,

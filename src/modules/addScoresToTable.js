@@ -1,12 +1,13 @@
-import scoreList from './scoreList.js';
 import generateScoreMarkup from './scoreMarkup.js';
 
-const addScoresToTable = () => {
+const addScoresToTable = (scoreList) => {
   const tableBody = document.getElementById('tableBody');
   tableBody.innerHTML = '';
 
-  scoreList.forEach(({ name, score }) => {
-    const scoreMarkup = generateScoreMarkup(name, score);
+  const sortedList = scoreList.sort((a, b) => b.score - a.score);
+
+  sortedList.forEach(({ user, score }) => {
+    const scoreMarkup = generateScoreMarkup(user, score);
     tableBody.innerHTML += scoreMarkup;
   });
 };

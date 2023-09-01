@@ -1,12 +1,11 @@
 :root {
   --prefix: '';
-  --border-color: #B89335;
+  --border-color: #b89335;
   --background-color: #6d4e00;
   --bgTable-color: #fff3cd;
   --heading-color: #251a00;
   --subheading-color: #483300;
 }
-
 
 * {
   margin: 0;
@@ -22,7 +21,7 @@ body {
   color: var(--heading-color);
   font-size: 3rem;
   position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
 }
 
 .heading span {
@@ -31,15 +30,18 @@ body {
   color: var(--heading-color);
   text-transform: uppercase;
   animation: heading 1s infinite;
-  animation-delay: calc(.1s * var(--i));
-  
+  animation-delay: calc(0.1s * var(--i));
 }
+
 @keyframes heading {
-  0%,40%,100% {
-    transform: translateY(0)
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
   }
+
   20% {
-    transform: translateY(-20px)
+    transform: translateY(-20px);
   }
 }
 
@@ -69,6 +71,7 @@ input {
   from {
     transform: translateX(-350%);
   }
+
   to {
     transform: translateX(0);
   }

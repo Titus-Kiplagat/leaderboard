@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -45,8 +46,19 @@
 
 - Easily input user name and scores.
 - Have a seamless experience on both mobile and desktop devices.
+- Automatically sort and display user rankings based on scores.
+- Send and receive data from an API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🔭 Live Demo <a name="future-features"></a>
+
+[Leaderboard live demo](https://titus-kiplagat.github.io/leaderboard)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -123,9 +135,7 @@ Start the project
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- Automatically sort and display user rankings based on scores.
-- Send and receive data from an API.
+- Improve web accessibility features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

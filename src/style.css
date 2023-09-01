@@ -1,4 +1,6 @@
 :root {
+  --prefix: '';
+  --border-color: #b89335;
   --background-color: #6d4e00;
   --bgTable-color: #fff3cd;
   --heading-color: #251a00;
@@ -17,10 +19,83 @@ body {
 
 .heading {
   color: var(--heading-color);
+
+  /* font-size: 3rem; */
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+.heading span {
+  position: relative;
+  display: inline-block;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  animation: heading 2s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+.heading span:nth-child(1) {
+  --i: 1;
+}
+
+.heading span:nth-child(2) {
+  --i: 2;
+}
+
+.heading span:nth-child(3) {
+  --i: 3;
+}
+
+.heading span:nth-child(4) {
+  --i: 4;
+}
+
+.heading span:nth-child(5) {
+  --i: 5;
+}
+
+.heading span:nth-child(6) {
+  --i: 6;
+}
+
+.heading span:nth-child(7) {
+  --i: 7;
+}
+
+.heading span:nth-child(8) {
+  --i: 8;
+}
+
+.heading span:nth-child(9) {
+  --i: 9;
+}
+
+.heading span:nth-child(10) {
+  --i: 10;
+}
+
+.heading span:nth-child(11) {
+  --i: 11;
+}
+
+@keyframes heading {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
 }
 
 .sub-heading {
-  color: var(--subheading-color);
+  color: var(--heading-color);
+}
+
+.custom-border {
+  border-color: var(--border-color) !important;
 }
 
 .table-color,
@@ -35,4 +110,18 @@ input {
 #name::placeholder,
 #score::placeholder {
   color: var(--subheading-color);
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-350%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+#submit-btn {
+  animation: slideInFromLeft 1s ease-in-out;
 }

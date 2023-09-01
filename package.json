@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "git+https://github.com/Titus-Kiplagat/leaderboard.git"
+    "url": "https://github.com/Titus-Kiplagat/leaderboard/issues"
   },
-  "homepage": "https://github.com/Titus-Kiplagat/leaderboard#readme",
+  "homepage": "https://Titus-Kiplagat.github.io/leaderboard",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
@@ -40,5 +41,8 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

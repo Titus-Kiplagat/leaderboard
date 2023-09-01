@@ -1,9 +1,12 @@
 :root {
+  --prefix: '';
+  --border-color: #B89335;
   --background-color: #6d4e00;
   --bgTable-color: #fff3cd;
   --heading-color: #251a00;
   --subheading-color: #483300;
 }
+
 
 * {
   margin: 0;
@@ -42,6 +45,10 @@ body {
 
 .sub-heading {
   color: var(--subheading-color);
+}
+
+.custom-border {
+  border-color: var(--border-color) !important;
 }
 
 .table-color,

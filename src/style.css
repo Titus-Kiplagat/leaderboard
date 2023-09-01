@@ -64,3 +64,16 @@ input {
 #score::placeholder {
   color: var(--subheading-color);
 }
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-350%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+#submit-btn {
+  animation: slideInFromLeft 1s ease-in-out;
+}

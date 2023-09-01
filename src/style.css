@@ -19,6 +19,7 @@ body {
 
 .heading {
   color: var(--heading-color);
+
   /* font-size: 3rem; */
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
